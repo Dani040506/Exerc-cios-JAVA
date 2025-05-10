@@ -1,18 +1,11 @@
-## Getting Started
+Jogo de Sobrevivência 
+-
+Em um jogo de sobrevivência, o jogador precisa decidir como usar recursos. Escreva um programa que receba a quantidade de água (em litros), comida (em kg) e o nível de energia (0 a 100). O jogador deve descansar, explorar ou construir, com base nas regras: 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+-Descansar: se energia < 30 E (água ≥ 1 OU comida ≥ 0.5). Explorar: se energia ≥ 30 E água ≥ 2 E comida ≥ 1. 
 
-## Folder Structure
+-Construir: se energia ≥ 50 E água ≥ 3 E comida ≥ 2. 
 
-The workspace contains two folders by default, where:
+-Se nenhuma ação for possível, exiba "Nenhuma ação possível!". 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+-Exiba a ação escolhida ou a mensagem de erro.
