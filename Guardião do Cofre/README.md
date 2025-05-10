@@ -1,18 +1,9 @@
-## Getting Started
+Guardião do Cofre
+-
+Um cofre digital só abre com uma combinação de três condições. Escreva um programa que receba um código numérico (inteiro), um nível de segurança (1 a 5) e uma chave especial ('A', 'B' ou 'C'). O cofre abre se: 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+-Código é divisível por 7 E (nível de segurança ≥ 3 OU chave = 'A'). 
 
-## Folder Structure
+-Exiba "Cofre aberto!" ou "Acesso negado!".
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+-Se o nível de segurança ou a chave for inválido, exiba "Entrada inválida!". 
