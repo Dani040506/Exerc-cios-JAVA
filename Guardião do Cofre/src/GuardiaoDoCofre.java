@@ -11,7 +11,7 @@ public class GuardiaoDoCofre {
         int nivel = sc.nextInt();
 
         System.out.print("Digite a chave especial (A, B ou C): ");
-        char chave = sc.next().toLowerCase().charAt(0);
+        char chave = sc.next().toUpperCase().charAt(0);
 
         if (nivel < 1 || nivel > 5 || (chave != 'A' && chave != 'B' && chave != 'C')) {
             System.out.println("Entrada inválida!");
