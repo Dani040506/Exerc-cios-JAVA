@@ -1,2 +1,2 @@
-# Exercicios-JAVA
-Repositório para exercícios de JAVA da faculdade/cursos online
+# Exercicios-Programação
+Repositório para exercícios de Programação da faculdade/cursos online
